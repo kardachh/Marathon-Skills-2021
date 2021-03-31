@@ -64,7 +64,7 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(23, 537);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(83, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(81, 19);
             this.metroLabel1.TabIndex = 6;
             this.metroLabel1.Text = "metroLabel1";
             // 
@@ -382,7 +382,9 @@
             this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.metroLabel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "EditUser";
+            this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Text = "Редактирование пользователя";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

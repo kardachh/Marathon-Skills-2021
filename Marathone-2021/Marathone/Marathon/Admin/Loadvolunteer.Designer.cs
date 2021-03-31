@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(523, 250);
+            this.ClientSize = new System.Drawing.Size(523, 238);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroButton3);
@@ -126,7 +126,10 @@
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroLabel1);
             this.Name = "Loadvolunteer";
-            this.Text = "Loadvolunteer";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Text = "Загрузка волонтеров";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.ResumeLayout(false);
             this.PerformLayout();
 

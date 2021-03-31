@@ -132,8 +132,12 @@
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroComboBox1);
+            this.MaximizeBox = false;
             this.Name = "Volunteer";
-            this.Text = "Volunteer";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Text = "Волонтеры";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -78,13 +78,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 205);
+            this.ClientSize = new System.Drawing.Size(454, 205);
             this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroButton2);
+            this.MaximizeBox = false;
             this.Name = "AdminMenu";
-            this.Text = "AdminMenu";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Text = "Меню Администратора";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.ResumeLayout(false);
 
         }

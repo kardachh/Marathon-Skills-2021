@@ -403,7 +403,9 @@
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroLabel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "AddUser";
+            this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Text = "Добавить пользователя";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

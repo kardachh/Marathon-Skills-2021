@@ -82,7 +82,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.metroButtonCancel = new MetroFramework.Controls.MetroButton();
             this.metroButtonEntrance = new MetroFramework.Controls.MetroButton();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +92,7 @@
             this.labelRemains7.Location = new System.Drawing.Point(491, 285);
             this.labelRemains7.Margin = new System.Windows.Forms.Padding(1);
             this.labelRemains7.Name = "labelRemains7";
-            this.labelRemains7.Size = new System.Drawing.Size(98, 38);
+            this.labelRemains7.Size = new System.Drawing.Size(98, 37);
             this.labelRemains7.TabIndex = 50;
             this.labelRemains7.Text = "Остаток";
             this.labelRemains7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,7 +104,7 @@
             this.labelSum7.Location = new System.Drawing.Point(393, 285);
             this.labelSum7.Margin = new System.Windows.Forms.Padding(1);
             this.labelSum7.Name = "labelSum7";
-            this.labelSum7.Size = new System.Drawing.Size(96, 38);
+            this.labelSum7.Size = new System.Drawing.Size(96, 37);
             this.labelSum7.TabIndex = 49;
             this.labelSum7.Text = "Сумма";
             this.labelSum7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -117,7 +116,7 @@
             this.labelC7.Location = new System.Drawing.Point(295, 285);
             this.labelC7.Margin = new System.Windows.Forms.Padding(1);
             this.labelC7.Name = "labelC7";
-            this.labelC7.Size = new System.Drawing.Size(96, 38);
+            this.labelC7.Size = new System.Drawing.Size(96, 37);
             this.labelC7.TabIndex = 48;
             this.labelC7.Text = "123";
             this.labelC7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,7 +184,7 @@
             // labelCountRunners
             // 
             this.labelCountRunners.AutoSize = true;
-            this.labelCountRunners.Location = new System.Drawing.Point(202, 113);
+            this.labelCountRunners.Location = new System.Drawing.Point(204, 60);
             this.labelCountRunners.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCountRunners.Name = "labelCountRunners";
             this.labelCountRunners.Size = new System.Drawing.Size(13, 13);
@@ -411,7 +410,7 @@
             // labelInfoRunners
             // 
             this.labelInfoRunners.AutoSize = true;
-            this.labelInfoRunners.Location = new System.Drawing.Point(20, 113);
+            this.labelInfoRunners.Location = new System.Drawing.Point(22, 60);
             this.labelInfoRunners.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelInfoRunners.Name = "labelInfoRunners";
             this.labelInfoRunners.Size = new System.Drawing.Size(180, 13);
@@ -502,7 +501,7 @@
             this.tableLayoutPanel.Controls.Add(this.label11, 1, 8);
             this.tableLayoutPanel.Controls.Add(this.label12, 2, 8);
             this.tableLayoutPanel.Controls.Add(this.label13, 2, 7);
-            this.tableLayoutPanel.Location = new System.Drawing.Point(19, 137);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(21, 84);
             this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 9;
@@ -516,7 +515,7 @@
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.41667F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.41667F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(590, 324);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(590, 323);
             this.tableLayoutPanel.TabIndex = 8;
             // 
             // labelA1
@@ -562,7 +561,7 @@
             this.label7.Location = new System.Drawing.Point(1, 285);
             this.label7.Margin = new System.Windows.Forms.Padding(1);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 38);
+            this.label7.Size = new System.Drawing.Size(96, 37);
             this.label7.TabIndex = 16;
             this.label7.Text = "Сув. букл.";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -745,7 +744,7 @@
             this.label11.Location = new System.Drawing.Point(99, 285);
             this.label11.Margin = new System.Windows.Forms.Padding(1);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 38);
+            this.label11.Size = new System.Drawing.Size(96, 37);
             this.label11.TabIndex = 20;
             this.label11.Text = "--------";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -756,7 +755,7 @@
             this.label12.Location = new System.Drawing.Point(197, 285);
             this.label12.Margin = new System.Windows.Forms.Padding(1);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(96, 38);
+            this.label12.Size = new System.Drawing.Size(96, 37);
             this.label12.TabIndex = 21;
             this.label12.Text = "--------";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -774,7 +773,7 @@
             // 
             // metroButtonCancel
             // 
-            this.metroButtonCancel.Location = new System.Drawing.Point(7, 63);
+            this.metroButtonCancel.Location = new System.Drawing.Point(21, 423);
             this.metroButtonCancel.Name = "metroButtonCancel";
             this.metroButtonCancel.Size = new System.Drawing.Size(110, 35);
             this.metroButtonCancel.TabIndex = 16;
@@ -784,7 +783,7 @@
             // 
             // metroButtonEntrance
             // 
-            this.metroButtonEntrance.Location = new System.Drawing.Point(501, 476);
+            this.metroButtonEntrance.Location = new System.Drawing.Point(503, 423);
             this.metroButtonEntrance.Name = "metroButtonEntrance";
             this.metroButtonEntrance.Size = new System.Drawing.Size(110, 35);
             this.metroButtonEntrance.TabIndex = 17;
@@ -792,29 +791,22 @@
             this.metroButtonEntrance.UseSelectable = true;
             this.metroButtonEntrance.Click += new System.EventHandler(this.metroButtonEntrance_Click);
             // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.Location = new System.Drawing.Point(282, 63);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(97, 25);
-            this.metroLabel1.TabIndex = 18;
-            this.metroLabel1.Text = "Инвентарь";
-            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 552);
-            this.Controls.Add(this.metroLabel1);
+            this.ClientSize = new System.Drawing.Size(628, 479);
             this.Controls.Add(this.metroButtonEntrance);
             this.Controls.Add(this.metroButtonCancel);
             this.Controls.Add(this.labelCountRunners);
             this.Controls.Add(this.labelInfoRunners);
             this.Controls.Add(this.tableLayoutPanel);
+            this.MaximizeBox = false;
             this.Name = "Inventory";
-            this.Text = "Inventory";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Text = "Инвентарь";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -877,6 +869,5 @@
         private System.Windows.Forms.Label label13;
         private MetroFramework.Controls.MetroButton metroButtonCancel;
         private MetroFramework.Controls.MetroButton metroButtonEntrance;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }

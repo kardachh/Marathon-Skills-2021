@@ -54,7 +54,7 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(23, 498);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(83, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(81, 19);
             this.metroLabel1.TabIndex = 5;
             this.metroLabel1.Text = "metroLabel1";
             // 
@@ -173,7 +173,7 @@
             this.metroLabel3.TabIndex = 12;
             this.metroLabel3.Text = "metroLabel3";
             // 
-            // AdminMenu
+            // AdminUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -187,7 +187,8 @@
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroLabel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AdminMenu";
+            this.MaximizeBox = false;
+            this.Name = "AdminUser";
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Text = "Управление пользователями";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

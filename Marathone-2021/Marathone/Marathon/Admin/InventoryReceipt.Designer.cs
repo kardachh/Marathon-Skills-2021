@@ -260,7 +260,7 @@
             // 
             // metroButtonCancel
             // 
-            this.metroButtonCancel.Location = new System.Drawing.Point(23, 50);
+            this.metroButtonCancel.Location = new System.Drawing.Point(22, 278);
             this.metroButtonCancel.Name = "metroButtonCancel";
             this.metroButtonCancel.Size = new System.Drawing.Size(75, 23);
             this.metroButtonCancel.TabIndex = 23;
@@ -270,7 +270,7 @@
             // 
             // metroButtonSave
             // 
-            this.metroButtonSave.Location = new System.Drawing.Point(323, 50);
+            this.metroButtonSave.Location = new System.Drawing.Point(322, 278);
             this.metroButtonSave.Name = "metroButtonSave";
             this.metroButtonSave.Size = new System.Drawing.Size(75, 23);
             this.metroButtonSave.TabIndex = 24;
@@ -282,7 +282,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 318);
+            this.ClientSize = new System.Drawing.Size(418, 315);
             this.Controls.Add(this.metroButtonSave);
             this.Controls.Add(this.metroButtonCancel);
             this.Controls.Add(this.labelInfo3);
@@ -291,6 +291,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "InventoryReceipt";
+            this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Text = "Поступление инвентаря";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
