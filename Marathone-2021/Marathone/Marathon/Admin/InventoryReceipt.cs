@@ -52,7 +52,7 @@ namespace Marathon.Admin
                         {
                             labelsInfo[i].Text = "";
                             int sum = formInventory.counts[i] + Convert.ToInt32(textBox.Text);
-                            string sql = $"UPDATE RaceKitOption SET Count={sum} WHERE RaceKitOptionId = '{formInventory.Ids[i]}'";
+                            string sql = $"UPDATE racеkitоption  SET Count={sum} WHERE RaceKitOptionId = '{formInventory.Ids[i]}'";
                             MySqlCommand sqlCommand = new MySqlCommand(sql, Program.connection);
                             sqlCommand.ExecuteNonQuery();
                             labelsInfo[i].Text = $"\nДанные обновленны для комплекта {formInventory.Ids[i]}!";
@@ -66,7 +66,7 @@ namespace Marathon.Admin
                     {
                         labelsInfo[i].Text = "";
                         int sum = formInventory.counts[i] + Convert.ToInt32(textBox.Text);
-                        string sql = $"UPDATE RaceKitOption SET Count={sum} WHERE RaceKitOptionId = '{formInventory.Ids[i]}'";
+                        string sql = $"UPDATE racеkitоption SET Count={sum} WHERE RaceKitOptionId = '{formInventory.Ids[i]}'";
                         MySqlCommand sqlCommand = new MySqlCommand(sql, Program.connection);
                         sqlCommand.ExecuteNonQuery();
                         labelsInfo[i].Text = $"\nДанные обновленны для комплекта {formInventory.Ids[i]}!";

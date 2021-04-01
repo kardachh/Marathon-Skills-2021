@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using MetroFramework;
+﻿using MetroFramework;
 using MetroFramework.Forms;
 using MySql.Data.MySqlClient;
+using System;
+using System.Drawing;
 using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace Marathon.Runner
 {
@@ -45,7 +40,7 @@ namespace Marathon.Runner
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            if (Regex.IsMatch(metroTextBox2.Text, @"^((?=.*?[A-Z])(?=.*?[0-9])(?=.*?[# ! @ $ % ^]))"))
+            if (metroTextBox2.Text != "")
             {
                 if (metroTextBox4.Text.Length != 0 && metroTextBox5.Text.Length != 0 && metroDateTime1.Text.Length != 0 && metroComboBox1.Text.Length != 0)
                 {
@@ -161,12 +156,6 @@ namespace Marathon.Runner
             }
         }
 
-        private void metroTextBox1_Click(object sender, EventArgs e)
-        {
-            //34242344234
-            //43242342352323
-        }
-
         private Random _random = new Random(Environment.TickCount);
 
         public string RandomString(int length)
@@ -213,11 +202,7 @@ namespace Marathon.Runner
             {
                 File.Delete(image);
             }
-        }
-
-        private void metroTextBox2_Click(object sender, EventArgs e)
-        {
-
+            Close();
         }
     }
 }

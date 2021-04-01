@@ -276,8 +276,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(819, 510);
             this.Controls.Add(this.tableLayoutPanelAll);
+            this.MaximizeBox = false;
             this.Name = "FormMyResults";
-            this.Text = "FormMyResults";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Text = "Мои результаты";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.tableLayoutPanelAll.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
